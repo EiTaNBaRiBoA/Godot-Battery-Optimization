@@ -74,7 +74,7 @@ public class MainClass extends GodotPlugin {
 
     @UsedByGodot
     public void requestBatteryPermission() {
-        if (isPermissionGranted()) {
+        if (!isPermissionGranted()) {
             requestBatteryOptimization();
             return;
         }
