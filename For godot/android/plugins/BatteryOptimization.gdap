@@ -1,0 +1,15 @@
+[config]
+
+name="Battery Optimization"
+binary_type="local"
+binary="BatteryOptimization.aar"
+
+[dependencies]
+
+local=[]
+remote=[
+    "com.google.android.play:review:2.0.1",
+    "com.google.android.gms:play-services-base:18.2.0",
+    "com.waseemsabir:betterypermissionhelper:1.0.3"
+]
+custom_maven_repos=[]
